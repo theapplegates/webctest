@@ -7,4 +7,16 @@ function permalink(data) {
 
 <hello-component place="world"></hello-component>
 
+<eleventy-image src="owl.jpg" alt="photo of my tabby cat"></eleventy-image>
+
+<unpic-img
+	webc:import="npm:@unpic/webc"
+	src="https://res.cloudinary.com/paulapplegate-com/image/upload/v1714600567/chalo-gallardo_odk3r6.jpg"
+	layout="constrained"
+	width="800"
+	height="600"
+	alt="A building before the storm"
+></unpic-img>
+
+
 <p><a href="index.webc">Go back</a>.</p>
