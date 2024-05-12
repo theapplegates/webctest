@@ -4,6 +4,8 @@ let place = "earth";
 ---
 <hello-component place="world"></hello-component>
 <hello-component :place="place"></hello-component>
+
+
 <p><a href="page.webc">Another page</a>.</p>
 See all the things it has..I don't know what they mean but they must be impressive :)
 # eleventy-base-webc
