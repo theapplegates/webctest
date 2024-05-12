@@ -1,14 +1,20 @@
 ---node
 // Initialize page data in JavaScript front matter
 let place = "earth";
+let myMessage = "See all the things it has. I don't know what they mean but they must be impressive :)";
 ---
+
 <hello-component place="world"></hello-component>
 <hello-component :place="place"></hello-component>
 
+<p>{{ myMessage }}</p>
 
 <p><a href="page.webc">Another page</a>.</p>
+
+<p><a href="page.webc">Another page</a>.</p>
+
 See all the things it has..I don't know what they mean but they must be impressive :)
-# eleventy-base-webc
+
 
 A minimalist bare-bones Eleventy-official starter project useful for demos/experiments with [WebC](https://www.11ty.dev/docs/languages/webc/) and the [Eleventy](https://www.11ty.dev/) site generator (using the [v3.0 release](https://www.11ty.dev/blog/canary-eleventy-v3/)).
 
