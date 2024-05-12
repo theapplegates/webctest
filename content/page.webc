@@ -17,7 +17,7 @@ function permalink(data) {
 	alt="A building before the storm"
 ></unpic-img>
 
-See all the things it has..I don't know what they mean but they must be impressive :)
+<p>See all the things it has..I don't know what they mean but they must be impressive :)
 # eleventy-base-webc
 
 A minimalist bare-bones Eleventy-official starter project useful for demos/experiments with [WebC](https://www.11ty.dev/docs/languages/webc/) and the [Eleventy](https://www.11ty.dev/) site generator (using the [v3.0 release](https://www.11ty.dev/blog/canary-eleventy-v3/)).
@@ -46,7 +46,7 @@ A minimalist bare-bones Eleventy-official starter project useful for demos/exper
 - [Cloudflare Pages](https://eleventy-base-webc.pages.dev/)
 - [Netlify](https://eleventy-base-webc.netlify.app/)
 - Learn more about [deploying an Eleventy project to the web](https://www.11ty.dev/docs/deployment/).
-
+</p>
 
 
 <p><a href="index.webc">Go back</a>.</p>
