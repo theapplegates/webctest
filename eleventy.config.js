@@ -33,8 +33,8 @@ export default function(eleventyConfig) {
 		// Image plugin
 		eleventyConfig.addPlugin(eleventyImagePlugin, {
 			// Set global default options
-			formats: ["webp", "jpeg"],
-			urlPath: "/img/",
+			formats: ["avif", "webp", "jpeg"],
+			urlPath: "./img/",
 
 			// Notably `outputDir` is resolved automatically
 			// to the project output directory
