@@ -7,6 +7,33 @@ let myMessage = "See all the things it has. I don't know what they mean but they
 <hello-component place="world"></hello-component>
 <hello-component :place="place"></hello-component>
 
+<unpic-img
+	webc:import="npm:@unpic/webc"
+	src="https://res.cloudinary.com/paulapplegate-com/image/upload/v1714600567/chalo-gallardo_odk3r6.jpg"
+	layout="constrained"
+	width="800"
+	height="600"
+	alt="A building before the storm"
+></unpic-img>
+
+<unpic-img
+	webc:import="npm:@unpic/webc"
+	src="https://res.cloudinary.com/paulapplegate-com/image/upload/v1718838447/bob-brewer_ayzghl.jpg"
+	layout="constrained"
+	width="1920"
+	height="1224"
+	alt="A white bird"
+></unpic-img>
+
+<unpic-img
+	webc:import="npm:@unpic/webc"
+	src="https://res.cloudinary.com/paulapplegate-com/image/upload/v1718838447/pawel-czerwinski_r4l442.jpg"
+	layout="constrained"
+	width="1920"
+	height="1280"
+	alt="A white house"
+></unpic-img>
+
 <p>{{ myMessage }}</p>
 
 <p><a href="page.webc">Another page</a>.</p>
