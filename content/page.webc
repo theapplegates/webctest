@@ -17,6 +17,24 @@ function permalink(data) {
 	alt="A building before the storm"
 ></unpic-img>
 
+<unpic-img
+	webc:import="npm:@unpic/webc"
+	src="https://res.cloudinary.com/paulapplegate-com/image/upload/v1718838447/bob-brewer_ayzghl.jpg"
+	layout="constrained"
+	width="1920"
+	height="1224"
+	alt="A white bird"
+></unpic-img>
+
+<unpic-img
+	webc:import="npm:@unpic/webc"
+	src="https://res.cloudinary.com/paulapplegate-com/image/upload/v1718838447/pawel-czerwinski_r4l442.jpg"
+	layout="constrained"
+	width="1920"
+	height="1280"
+	alt="A white house"
+></unpic-img>
+
 
 <p>See all the things it has..I don't know what they mean but they must be impressive :)
 # eleventy-base-webc
